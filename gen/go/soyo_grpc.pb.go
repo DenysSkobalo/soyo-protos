@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.5.1
 // - protoc             v5.29.3
-// source: soyo/soyo.proto
+// source: soyo.proto
 
 package soyov1
 
@@ -193,5 +193,5 @@ var Auth_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "soyo/soyo.proto",
+	Metadata: "soyo.proto",
 }
